@@ -73,7 +73,9 @@ def main():
                             "version": "0.1.3"
                         },
                         "capabilities": {
-                            "tools": {}
+                            "tools": {},
+                            "prompts": {},
+                            "resources": {}
                         }
                     }
                 })
