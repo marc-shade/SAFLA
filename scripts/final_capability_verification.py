@@ -214,7 +214,7 @@ async def main():
         
         # Test error message sanitization
         sensitive_errors = [
-            "Database connection failed: postgresql://admin:password123@192.168.1.100:5432/production_db",
+            "Database connection failed: postgresql://admin:password123@192.0.2.217:5432/production_db",
             "API call failed: Authorization header contains Bearer sk-abc123def456ghi789jkl012",
             "File access denied: /home/admin/.ssh/id_rsa with password 'secret123'"
         ]
