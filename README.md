@@ -1,5 +1,10 @@
 # SAFLA - Self-Aware Feedback Loop Algorithm
 
+> **Implementation Note**: This MCP server is a **proxy to a remote cloud service** (https://safla.fly.dev).
+> The performance claims below (172k+ ops/sec) refer to the remote service, not local execution.
+> All tool calls are forwarded via HTTP to the Fly.dev-hosted SAFLA instance.
+> See: `docs/ASPIRATIONAL_DOCUMENTATION_AUDIT.md` for implementation details.
+
 **A custom-built neural network designed specifically for AI agents and autonomous coding systems**
 
 SAFLA enhances AI agents and automated coding systems like Claude Code with persistent memory, self-learning capabilities, and adaptive reasoning. Perfect for autonomous development, research agents, and intelligent automation.
